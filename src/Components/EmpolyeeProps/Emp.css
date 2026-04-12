@@ -1,0 +1,26 @@
+.employee {
+    & .container {
+        text-align: center;
+
+        & h2 {
+            background: linear-gradient(navy, white);
+            padding: 1vh 0;
+            color: navy;
+            text-shadow: 1px 1px 1px white;
+        }
+
+        & table {
+            border: solid 1px navy;
+            margin: 2vh auto;
+            border-collapse: collapse;
+
+            &th,
+            td {
+                padding:10px;
+            }
+        }
+    }
+}
+
+
+

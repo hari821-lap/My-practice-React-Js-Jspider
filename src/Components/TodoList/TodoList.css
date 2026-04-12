@@ -1,0 +1,12 @@
+.todolist{
+    
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 80px;
+
+}
+.delete{
+    margin-left: 12px;
+    margin-top: 12px;
+}

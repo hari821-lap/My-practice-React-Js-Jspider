@@ -1,0 +1,70 @@
+
+
+.po-container {
+
+    max-width: 420px;
+    margin: 40px auto;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    font-family: Inter, system-ui, Arial, sans-serif;
+       background-color: turquoise;
+    
+}
+
+.po-row {
+    display: flex;
+    gap: 8px;
+    align-items: center
+}
+
+.po-title {
+    font-size: 20px;
+    margin-bottom: 10px
+}
+
+input.po-input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #d0d7de;
+    font-size: 16px
+}
+
+button.po-btn {
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: none;
+    background: #0366d6;
+    color: white;
+    font-weight: 600;
+    cursor: pointer
+}
+
+button.po-btn[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed
+}
+
+.po-msg {
+    margin-top: 10px;
+    color: #333
+}
+
+.po-info {
+    font-size: 13px;
+    color: #555;
+    margin-top: 8px
+}
+
+.po-otp {
+    letter-spacing: 4px;
+    font-size: 18px
+}
+
+/* small helper for the action buttons row */
+.po-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px
+}

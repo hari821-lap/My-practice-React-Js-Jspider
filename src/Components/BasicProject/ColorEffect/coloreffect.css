@@ -1,0 +1,12 @@
+*{
+   
+
+}
+.coloreffect{
+    display: flex;
+    justify-content: center;
+    & .container{
+        color: blue;
+        
+    }
+}

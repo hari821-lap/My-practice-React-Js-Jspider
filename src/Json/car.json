@@ -1,0 +1,18 @@
+{
+    "car":[
+        {
+            "id":1,
+            "carname":"BMW",
+            "carColor":"Black",
+            "carPrice":"2cr",
+            "carModel":2025
+        },
+        {
+            "id":2,
+            "carname":"Benz",
+            "carColor":"white",
+            "carPrice":"1.5cr",
+            "carModel":2024
+        }
+    ]
+}

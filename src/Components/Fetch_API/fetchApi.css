@@ -1,0 +1,9 @@
+.fetchApi{
+    h1{
+        text-align: center;
+        padding: 2vh 0;
+    }
+    .container{
+        display: grid;
+    }
+}

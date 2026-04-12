@@ -1,0 +1,20 @@
+.hooks{
+    & h1{
+        text-align: center;
+        background: linear-gradient(crimson,white);
+        padding: 1vh 0;
+    }
+    & incdec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px black;
+        width: 25vw;
+        margin: auto;
+        & bottom{
+            width: 5vw;
+            margin: 0 1vw;
+        }
+    }
+    
+}

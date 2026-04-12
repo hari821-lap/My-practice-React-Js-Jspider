@@ -1,0 +1,28 @@
+
+.container{
+    table{
+        border:solid 2px black;
+        margin: 5vh auto;
+        border-collapse: collapse;
+        width: 100%;
+        th,td{
+            padding: 1vh 1vh;
+        }
+        td{
+            text-align: center;
+        }
+        thead{
+            th{
+                background: navy;
+                color: white;
+            }
+
+        }
+        tbody{
+            tr:nth-child(even){
+                background-color: rgb(146, 146, 189);
+                color: white;
+            }
+        }
+    }
+}

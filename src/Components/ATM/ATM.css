@@ -1,0 +1,142 @@
+
+.frontcls{
+  color: gold;
+  
+}
+.backcls{
+  color: greenyellow;
+} 
+
+.frontbtn{
+  border-radius: 4px;
+ 
+  border-color: greenyellow 70px;
+  color:rgb(205, 7, 7);
+  background-color:gold;
+   border-radius: 6px;
+   box-shadow: 5px 4px ;
+}
+button
+{margin-bottom: 12px;
+  width: 90px;
+  border-radius: 6px;
+  border-color: greenyellow;
+  background-color: greenyellow;
+  box-shadow: 5px 4px ;
+}
+
+/* .atm-container {
+  text-align: center;
+  background-color: lightgray;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+} */
+
+
+.atm-card {
+  width: 350px;
+  height: 200px;
+  border-radius: 12px;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px gray;
+}
+
+
+.front {
+  background-color: royalblue;
+  /* position: relative; */
+}
+
+.chip {
+  width: 50px;
+  height: 35px;
+  background-color: gold;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.bank-name {
+  text-align: right;
+  margin: 0;
+}
+
+.card-number {
+  margin-top: 30px;
+  font-size: 18px;
+  letter-spacing: 3px;
+  color: gold;
+}
+
+.bottom-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.valid p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.holder-name {
+  font-weight: bold;
+}
+
+.back {
+  background-color: darkblue;
+  color: white;
+  position: relative;
+}
+
+.black-strip {
+  height: 35px;
+  background-color: black;
+  margin-top: 9px;
+  width: 100%;
+}
+
+.signature-box {
+  background-color: white;
+  color: black;
+  margin: 20px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.white-strip {
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 5px;
+  padding: 3px;
+}
+
+.cvv-box {
+  margin-top: -11px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+/* .cvv {
+  background-color: white;
+  color: black;
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+} */
+
+.instructions {
+  font-size: 12px;
+  text-align: center;
+  margin-top: -13px;
+}
+

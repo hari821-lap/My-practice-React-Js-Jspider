@@ -1,0 +1,50 @@
+
+
+.students {
+    margin: auto;
+
+    & h1 {
+        margin: auto;
+        text-align: center;
+        padding: 2vh 0;
+        background: linear-gradient(skyblue, white);
+        font-style: italic;
+        border: solid 1px black;
+       
+
+
+    }
+
+    & .container {
+        & table {
+            border: solid 1px beige;
+            background: linear-gradient(white, skyblue);
+        }
+
+        & thead {
+            & tr {
+                background-color: aquamarine;
+
+                & th {
+
+                    text-align: center;
+                }
+            }
+        }
+
+        & tbody {
+            & tr {
+                & th {
+                    color: brown;
+                    background-color: aquamarine;
+
+                }
+
+                & td {}
+            }
+        }
+
+
+    }
+
+}
