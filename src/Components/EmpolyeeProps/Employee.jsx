@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import { employee } from './EmpData'
 import Developer from './Developer'
 import './Emp.css'
