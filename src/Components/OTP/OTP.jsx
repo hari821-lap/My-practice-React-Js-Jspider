@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import './PhoneOTP.css';
+import './phoneOTP.css';
 
 const OTP = () => {
   const [phone, setPhone] = useState('');
