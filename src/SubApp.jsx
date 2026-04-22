@@ -1,5 +1,5 @@
 import Students from "./Components/Students/Students"
-import EventsHandling from './Components/Eventhanding/EventHanding'
+import EventsHandling from './Components/EventHanding/EventHanding'
 import Parent from './Components/propsBasic/Parents'
 import { Employee } from './Components/EmpolyeeProps/Employee'
 import Acomp from './Components/Props_drilling/Acomp'
